@@ -68,7 +68,6 @@ public class SpringBatchConfig {
         BeanWrapperFieldSetMapper<User> fieldSetMapper=new BeanWrapperFieldSetMapper<>();
         fieldSetMapper.setTargetType(User.class);
 
-
         defaultLineMapper.setLineTokenizer(lineTokenizer);
         defaultLineMapper.setFieldSetMapper(fieldSetMapper);
         return  defaultLineMapper;
